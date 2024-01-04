@@ -7,7 +7,7 @@ import {recipeRouter} from "./routes/recipeRouter.js"
 
 const app= express()
 
-const PORT= process.env.PORT
+const PORT= process.env.PORT || 3000
 
 main().catch(err => console.log(err));
 
